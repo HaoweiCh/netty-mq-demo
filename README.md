@@ -4,7 +4,10 @@
 
 定位：**学习 Netty + 理解消息中间件原理**，不是生产级 MQ。
 
----
+- 这是一个 java 项目，学习和实践 netty 的 toyproject                                       
+- 需要整个框架复合 best practice            
+- 最小实现，以展示框架和架构能力为主          
+- 纯内存的消息中间件    
 
 ## 一、架构
 
@@ -113,5 +116,3 @@ src/main/java/com/example/mq/
 ├── Producer.java        # 生产者客户端
 └── Consumer.java        # 消费者客户端
 ```
-
-设计参考见 [`plan.md`](plan.md)。
